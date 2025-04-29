@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="My Projects">
+  <meta name="keywords" content="portfolio, projects, web development">
+  <meta name="author" content="Your Name">
+  <title>Projects</title>
+  <link rel="stylesheet" href="Styles.css">
+  <script src="Scripts.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About Page.html">About</a></li>
+        <li><a href="Projects Page.html">Projects</a></li>
+        <li><a href="Contact Page.html">Contact</a></li>
+        <li><a href="Survey Page.html">Survey</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="three-column">
+    <article class="project">
+      <img src="images/project1.png" alt="Screenshot of Project One" style="width:100%; border-radius: 10px;">
+      <h2>Project One</h2>
+      <p>This is the first project. A responsive website using HTML, CSS, and JavaScript.</p>
+      <a href="https://github.com/yourusername/project-one" target="_blank">View on GitHub</a>
+      <button onclick="toggleDetails(this)">Toggle Details</button>
+      <div class="details" style="display:none;">
+        <p>Details: This project showcases responsive layout and form validation.</p>
+      </div>
+    </article>
+
+    <article class="project">
+      <img src="images/project2.png" alt="Screenshot of Project Two" style="width:100%; border-radius: 10px;">
+      <h2>Project Two</h2>
+      <p>This is the second project. A JavaScript app that dynamically updates content.</p>
+      <a href="https://github.com/yourusername/project-two" target="_blank">View on GitHub</a>
+      <button onclick="toggleDetails(this)">Toggle Details</button>
+      <div class="details" style="display:none;">
+        <p>Details: Features DOM manipulation, event handling, and animations.</p>
+      </div>
+    </article>
+
+    <article class="project">
+      <img src="images/project3.png" alt="Screenshot of Project Three" style="width:100%; border-radius: 10px;">
+      <h2>Project Three</h2>
+      <p>This is the third project. A CSS Grid-based layout demo.</p>
+      <a href="https://github.com/yourusername/project-three" target="_blank">View on GitHub</a>
+      <button onclick="toggleDetails(this)">Toggle Details</button>
+      <div class="details" style="display:none;">
+        <p>Details: Implements flexible grid structure and accessibility features.</p>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Evaline Range</p>
+  </footer>
+</body>
+</html>

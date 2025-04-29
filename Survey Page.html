@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="User Survey">
+  <meta name="keywords" content="survey, feedback, web form">
+  <meta name="author" content="Evaline Range">
+  <title>Survey</title>
+  <link rel="stylesheet" href="Styles.css">
+  <script src="Scripts.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Survey Page.html">About</a></li>
+        <li><a href="Projects Page.html">Projects</a></li>
+        <li><a href="Contact Page.html">Contact</a></li>
+        <li><a href="Survey Page.html">Survey</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>User Feedback Survey</h1>
+    <form>
+      <fieldset>
+        <legend>How satisfied are you with this portfolio?</legend>
+        <label><input type="radio" name="satisfaction" value="very"> Very Satisfied</label>
+        <label><input type="radio" name="satisfaction" value="somewhat"> Somewhat Satisfied</label>
+        <label><input type="radio" name="satisfaction" value="not"> Not Satisfied</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>What features do you like?</legend>
+        <label><input type="checkbox" name="features" value="design"> Design</label>
+        <label><input type="checkbox" name="features" value="content"> Content</label>
+        <label><input type="checkbox" name="features" value="interactivity"> Interactivity</label>
+      </fieldset>
+
+      <label for="suggestions">Suggestions:</label>
+      <textarea id="suggestions" name="suggestions"></textarea>
+
+      <button type="submit">Submit Survey</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Your Name</p>
+  </footer>
+</body>
+</html>
